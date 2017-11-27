@@ -13,7 +13,7 @@ $("#input_width").on("change", function() {
 	width = $(this).val();
 });
 
-$(":button").on("click", function makeGrid(e) {
+$("#start").on("click", function makeGrid(e) {
 	
 	for (var i = 1; i <= height; i++) {
 		$("table").append("<tr></tr>");
@@ -27,5 +27,13 @@ $(":button").on("click", function makeGrid(e) {
 	$("td").dblclick(function(){
 		$(this).css("background-color", "white");
 	});
+});
+$("#reset").on("click", function(){
+		$("#input_height").val(1);
+		$("#input_width").val(1);
+		$("tr").remove();
+		height = 1;
+		width = 1;
+
 });
 });
