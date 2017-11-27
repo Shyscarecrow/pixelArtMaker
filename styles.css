@@ -15,6 +15,11 @@ h2 {
 	
 }
 
+h3 {
+	font-family: 'Indie Flower', cursive;
+	font-size: 15px;
+}
+
 form {
 	font-family: 'Indie Flower', cursive;
 	font-size: 25px;
@@ -47,3 +52,4 @@ td {
 input[type=number] {
     width: 6em;
 }
+

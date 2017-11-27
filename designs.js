@@ -13,8 +13,8 @@ $("#input_width").on("change", function() {
 	width = $(this).val();
 });
 
-$(":submit").on("click", function makeGrid(e) {
-	e.preventDefault();
+$(":button").on("click", function makeGrid(e) {
+	
 	for (var i = 1; i <= height; i++) {
 		$("table").append("<tr></tr>");
 	};
