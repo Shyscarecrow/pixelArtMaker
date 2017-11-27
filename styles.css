@@ -53,3 +53,9 @@ input[type=number] {
     width: 6em;
 }
 
+input[type=button] {
+	-moz-border-radius:  5px; 
+	-webkit-border-radius:  5px; 
+	border-radius:  5px; 
+}
+
